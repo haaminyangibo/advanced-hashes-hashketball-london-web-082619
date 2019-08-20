@@ -1,270 +1,295 @@
-ashketball = {
+def game_hash 
+  game_hash =
+{
   :home => {
-    :team_name => "Monstars",
-    :colors => ["black", "green"],
+    :team_name => "Brooklyn Nets",
+    :colors => ["Black", "White"],
     :players => {
-      
-      "Pound" => {
-        :number => 99,
-        :shoe_size => 10,
-        :stats => {
-          :points => 40,
-          :rebounds => 11,
-          :assists => 12,
-          :steals => 8,
-          :blocks => 9,
-          :slam_dunks => 6
-        }
+      "Alan Anderson" => {
+        :number => 0,
+        :shoe => "16",
+        :points => 22,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 3,
+        :blocks => 1,
+        :slam_dunks => 1
       },
-
-      "Bupkus" => {
-        :number => 95,
-        :shoe_size => 11,
-        :stats => {
-          :points => 32,
-          :rebounds => 16,
-          :assists => 8,
-          :steals => 12,
-          :blocks => 15,
-          :slam_dunks => 8
-        }
+      "Reggie Evans" => {
+        :number => 30,
+        :shoe => "14",
+        :points => 12,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 12,
+        :blocks => 12,
+        :slam_dunks => 7
       },
-
-      "Bang" => {
-        :number => 93,
-        :shoe_size => 12,
-        :stats => {
-          :points => 24,
-          :rebounds => 9,
-          :assists => 13,
-          :steals => 10,
-          :blocks => 6,
-          :slam_dunks => 3
-        }
+      "Brook Lopez" => {
+        :number => 11,
+        :shoe => "17",
+        :points => 17,
+        :rebounds => 19,
+        :assists => 10,
+        :steals => 3,
+        :blocks => 1,
+        :slam_dunks => 15
       },
-
-      "Blanko" => {
-        :number => 88,
-        :shoe_size => 14,
-        :stats => {
-          :points => 10,
-          :rebounds => 12,
-          :assists => 8,
-          :steals => 6,
-          :blocks => 4,
-          :slam_dunks => 0
-        }
+      "Mason Plumlee" => {
+        :number => 1,
+        :shoe => "19",
+        :points => 26,
+        :rebounds => 12,
+        :assists => 6,
+        :steals => 3,
+        :blocks => 8,
+        :slam_dunks => 5
       },
-
-      "Nawt" => {
-        :number => 85,
-        :shoe_size => 13,
-        :stats => {
-          :points => 18,
-          :rebounds => 4,
-          :assists => 10,
-          :steals => 3,
-          :blocks => 9,
-          :slam_dunks => 7
-        }
-      },
-    },
+      "Jason Terry" => {
+        :number => 31,
+        :shoe => "15",
+        :points => 19,
+        :rebounds => 2,
+        :assists => 2,
+        :steals => 4,
+        :blocks => 11,
+        :slam_dunks => 1
+      }
+    }
   },
   :away => {
-    :team_name => "Toon Squad",
-    :colors => ["white", "blue"],
+    :team_name => "Charlotte Hornets",
+    :colors => ["Turquoise", "Purple"],
     :players => {
-      
-      "Bugs" => {
-        :number => 1,
-        :shoe_size => 10,
-        :stats => {
-          :points => 30,
-          :rebounds => 13,
-          :assists => 10,
-          :steals => 10,
-          :blocks => 8,
-          :slam_dunks => 5
-        }
+      "Jeff Adrien" => {
+        :number => 4,
+        :shoe => "18",
+        :points => 10,
+        :rebounds => 1,
+        :assists => 1,
+        :steals => 2,
+        :blocks => 7,
+        :slam_dunks => 2
       },
-
-      "Babs" => {
-        :number => 3,
-        :shoe_size => 6,
-        :stats => {
-          :points => 22,
-          :rebounds => 13,
-          :assists => 8,
-          :steals => 10,
-          :blocks => 12,
-          :slam_dunks => 3
-        }
+      "Bismak Biyombo" => {
+        :number => 0,
+        :shoe => "16",
+        :points => 12,
+        :rebounds => 4,
+        :assists => 7,
+        :steals => 7,
+        :blocks => 15,
+        :slam_dunks => 10
       },
-
-      "Taz" => {
-        :number => 5,
-        :shoe_size => 5,
-        :stats => {
-          :points => 28,
-          :rebounds => 7,
-          :assists => 15,
-          :steals => 4,
-          :blocks => 8,
-          :slam_dunks => 0
-        }
+      "Ben Gordon" => {
+        :number => 8,
+        :shoe => "15",
+        :points => 33,
+        :rebounds => 3,
+        :assists => 2,
+        :steals => 1,
+        :blocks => 1,
+        :slam_dunks => 0
       },
-
-      "Daffy" => {
-        :number => 7,
-        :shoe_size => 15,
-        :stats => {
-          :points => 14,
-          :rebounds => 12,
-          :assists => 8,
-          :steals => 6,
-          :blocks => 10,
-          :slam_dunks => 3
-        }
+      "Brendan Haywood" => {
+        :number => 33,
+        :shoe => "15",
+        :points => 6,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 22,
+        :blocks => 5,
+        :slam_dunks => 12
       },
-
-      "Jordan" => {
-        :number => 23,
-        :shoe_size => 12,
-        :stats => {
-          :points => 40,
-          :rebounds => 8,
-          :assists => 4,
-          :steals => 12,
-          :blocks => 10,
-          :slam_dunks => 12
-        }
-      },
-    },
+      "DeSagna Diop" => {
+        :number => 2,
+        :shoe => "14",
+        :points => 24,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 4,
+        :blocks => 5,
+        :slam_dunks => 5
+      }
+    }
   }
+
+  
 }
 
-# Using the power of Ruby, and the Hashes you created above, answer the following questions:
-# Return the number of points scored for any player:
-
-def points_per_player(player, hashketball)
-  player.capitalize!
-  if hashketball[:home][:players].include?(player)
-   hashketball[:home][:players][player][:stats][:points]
-  elsif hashketball[:away][:players].include?(player)
-   hashketball[:away][:players][player][:stats][:points]
-  else
-   "No player found."
-  end
-end
-
-puts points_per_player("blanko", hashketball)
-
-#
-
-# Return the shoe size for any player:
-
-def player_shoe_size(player, hashketball)
-  player.capitalize!
-  if hashketball[:home][:players].include?(player)
-   hashketball[:home][:players][player][:shoe_size]
-  elsif hashketball[:away][:players].include?(player)
-   hashketball[:away][:players][player][:shoe_size]
-  else
-   "No player found."
-  end
-end
-
-puts player_shoe_size("taz", hashketball)
-
-
-#
-
-# Return both colors for any team:
-
-def team_colors(team, hashketball)
-  sym = team.to_sym
-  if hashketball.include?(sym)
-   hashketball[sym][:colors]
-  else
-   "Try home or away."
-  end
-end
-
-puts team_colors("away", hashketball)
-
-#
-
-# Return both teams names:
-
-def team_names(hashketball)
-  puts "The #{hashketball[:home][:team_name]} welcome the #{hashketball[:away][:team_name]}"
-  puts 
-end
-
-puts team_names(hashketball)
-
-#
-
-# Return all the player numbers for a team:
-
-def player_nums(team, hashketball)
-    sym = team.to_sym
-    player_numbers = []
-    
-      hashketball[sym][:players].each_value do |x|
-      player_numbers << x[:number]
-  end
-    player_numbers
-end
-
-puts player_nums("away", hashketball)
-
-
-# Return all the stats for a player:
-
-def player_stats(player_name, hashketball)
-  player_name.capitalize!
-  if hashketball[:home][:players].include?(player_name)
-    hashketball[:home][:players][player_name][:stats]
-  elsif hashketball[:away][:players].include?(player_name)
-    hashketball[:away][:players][player_name][:stats]
-  else
-    "No player found."
-  end
-end
-
-puts player_stats("Daffy", hashketball)
-
-#
-
-# Return the rebounds for the player with the largest shoe size
-
-def biggest_shoe(hashketball)
-  player_number_with_biggest_shoe = ""
-  biggest_shoe_size = 0
+end 
   
-  hashketball[:home][:players].each do |name, player|
-    if player[:shoe_size] > biggest_shoe_size
-      player_number_with_biggest_shoe = name
-      biggest_shoe_size = player[:shoe_size]
-    end
-  end
-  hashketball[:away][:players].each do |name, player|
-    if player[:shoe_size] > biggest_shoe_size
-      player_number_with_biggest_shoe = name
-      biggest_shoe_size = player[:shoe_size]
-    end
-  end
   
-  " #{player_number_with_biggest_shoe} : #{biggest_shoe_size} "
-end# Write your code here!
+  
 
 
 
 
+def num_points_scored(player_name)
+array2 = []
+game_hash.each do |location, team_data|
+    team_data.each do |attribute, values|
+        if attribute == :players
+          values.each do |person, data|
+            data.each do |i, j|
+              if person == player_name && i == :points
+                array2.push(j)
+              end
+
+            end
+          end
+        end
+    end
+end
+return array2[0]
+end
+
+def shoe_size(player)
+  array2 = []
+  game_hash.each do |location, team_data|
+      team_data.each do |attribute, values|
+          if attribute == :players
+            values.each do |person, data|
+              data.each do |i, j|
+                if person == player && i == :shoe
+                  array2.push(j)
+                end
+
+              end
+            end
+          end
+      end
+  end
+  return array2[0]
+end
+
+def team_colors(team)
+  if team == "Charlotte Hornets"
+    game_hash[:away][:colors]
+  elsif team == "Brooklyn Nets"
+    game_hash[:home][:colors]
+  else
+
+  end
+end
+
+def team_names
+array2 = []
+  game_hash.each do |location, team_data|
+      team_data.each do |attribute, values|
+          if attribute == :team_name
+                array2.push(values)
+
+            end
+          end
+  end
+  return array2
+end
 
 
+def player_stats(player_name)
+  array2=[]
+  game_hash.each do |location, team_data|
+      team_data.each do |attribute, values|
+          if attribute == :players
+            values.each do |person, data|
+                if person == player_name
+                  array2.push(data )
+                end
+            end
+          end
+      end
+  end
+  return array2[0]
+end
 
 
+def player_numbers(team)
+  array2 = []
+  game_hash.each do |location, team_data|
+      team_data.each do |attribute, values|
+          if attribute == :players
+            values.each do |person, data|
+              data.each do |i, j|
+                if i == :number
+                  array2.push(j)
+                end
+
+              end
+            end
+          end
+      end
+  end
+  return array2
+end 
+
+([1,2,5].reduce(:+).to_f / [1,2,3].length.to_f)
 
 
+#---
+# always have a leader and a writer; leader directs; writer types out the code 
+
+# def num_points_scored2(player_name)
+#   game_hash.each do |location, team_data|
+#   if team_data[:players].has_key?(player_name)
+#     return team_data[:players][player_name][:points]
+#     end 
+#   end
+# end 
+
+def num_points_scored2(player_name)
+  game_hash.each do |location, team_data|
+  if team_data[:players].include?(player_name)
+    return team_data[:players][player_name][:points]
+    end 
+  end
+  nil
+end 
+
+
+num_points_scored2("Ben Gordon")
+
+def find_player_hash(player_name)
+  game_hash.each do |location, team_data|
+    if team_data[:players].include?(player_name)
+      return team_data[:players][player_name]
+    end 
+  end
+end 
+
+find_player_hash("Ben Gordon")
+
+def num_points_scored3(player_name)
+  find_player_hash(player_name)[:points]
+end 
+
+def shoe_size_2(player_name)
+  find_player_hash(player_name)[:shoe]
+end 
+
+def player_stats(" Alan Anderson")
+  game_hash.keys.each do |team|
+    if game_hash[team][:players].keys.include?(player_name)
+      return game_hash[team][:players][player_name]
+    end 
+  end 
+end 
+
+def find_player_hash_2(player_name)
+  home_players = game_hash[:home][:players]
+  away_players = game_hash[:away][:players]
+  all_players = home_players.merge(away_players)
+  all_players[player_name]
+end 
+
+find_player_hash_2("Jeff Adrien")
+
+
+def winning_team
+  away_total = 0 
+  home_total = 0 
+  
+game_hash[:away][:players]
+
+
+  
